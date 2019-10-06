@@ -3,8 +3,8 @@ module.exports = {
     // edit below
     title: `Jake Foraker: another ___ Blog`,
     author: `Jake Foraker`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Jake Foraker's personal blog with styled components and dark mode`,
+    siteUrl: `https://jakeforaker.com/`,
     social: {
       twitter: `jakeforaker`,
     },
@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    "gatsby-plugin-dark-mode",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
