@@ -1,10 +1,10 @@
+import './layout.css';
+
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 
-import { rhythm, scale } from '../utils/typography';
-
-import './layout.css';
+import { rhythm } from '../utils/typography';
 
 class Layout extends React.Component {
   render() {
@@ -15,13 +15,7 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath || location.pathname === blogPath) {
       header = (
-        <h2
-          style={{
-            ...scale(1.25),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
+        <h1 style={{ marginBottom: rhythm(1.5), marginTop: 0 }}>
           <Link
             style={{
               boxShadow: `none`,
@@ -32,7 +26,7 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-        </h2>
+        </h1>
       );
     } else {
       header = (
