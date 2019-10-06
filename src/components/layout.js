@@ -4,6 +4,8 @@ import styled from 'styled-components';
 
 import { rhythm, scale } from '../utils/typography';
 
+import './layout.css';
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props;
@@ -18,6 +20,7 @@ class Layout extends React.Component {
             ...scale(1.25),
             marginBottom: rhythm(1.5),
             marginTop: 0,
+            fontFamily: `Montserrat, sans-serif`,
           }}
         >
           <Link
