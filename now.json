@@ -1,0 +1,10 @@
+{
+  "alias": "jakeforaker.com",
+  "builds": [
+    {
+      "use": "@now/static-build",
+      "src": "package.json",
+      "config": { "distDir": "public" }
+    }
+  ]
+}

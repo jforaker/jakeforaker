@@ -54,10 +54,12 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
+    "build": "rm -rf public && rm -rf .cache && gatsby build",
+    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) jakeforaker.com",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
+    "now-build": "gatsby build",
+    "start": "yarn develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   }
