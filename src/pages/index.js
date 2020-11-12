@@ -16,9 +16,10 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        {/* <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" /> */}
         <h4>Who?</h4>
-        <h4>I'm a software developer currently working at CNN.</h4>
+        <h4>
+          I'm a software developer currently working at <code>undefined</code>.
+        </h4>
         <h4>
           Some topics that interest me currently are react-native and GraphQL.
           When I'm not writing code, I enjoy eating spicy foods, photography,

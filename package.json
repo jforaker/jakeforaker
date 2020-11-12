@@ -58,8 +58,7 @@
     "build": "rm -rf public && rm -rf .cache && gatsby build",
     "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) jakeforaker.com",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "now-build": "gatsby build",
-    "start": "yarn develop",
+    "start": "yarn dev",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   }
