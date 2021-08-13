@@ -18,10 +18,10 @@ class IndexPage extends React.Component {
         />
         <h4>Who?</h4>
         <h4>
-          I'm a software developer currently working at <code>undefined</code>.
+          Lead Mobile Engineer at <code>Brainscape</code>.
         </h4>
         <h4>
-          Some topics that interest me currently are react-native and GraphQL.
+          Currently interested in all things react-native.
           When I'm not writing code, I enjoy eating spicy foods, photography,
           playing guitar, and creating art.
         </h4>
